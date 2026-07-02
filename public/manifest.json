@@ -2,25 +2,22 @@
   "manifest_version": 3,
   "name": "MWT",
   "version": "0.0.1",
-  "description": "Open source translator with multiple providers.",
+  "description": "A lightweight open source translation tool built for speed with multiple providers.",
   "icons": {
-    "48": "/icons/icon-48.png"
+    "48": "icons/icon-48.png"
   },
-  "permissions": [
-    "storage"
-  ],
-  "browser_action": {
+  "permissions": ["storage"],
+  "action": {
     "default_title": "MWT",
-    "default_popup": "/index.html",
-    "default_icon": "/icons/icon-48.png"
+    "default_popup": "index.html",
+    "default_icon": "icons/icon-48.png"
   },
   "options_ui": {
-    "page": "/options.html",
-    "browser_style": true
+    "page": "options.html"
   },
   "sidebar_action": {
-    "default_panel": "/index.html",
-    "default_icon": "/icons/icon-48.png",
+    "default_panel": "index.html",
+    "default_icon": "icons/icon-48.png",
     "default_title": "MWT"
   }
 }
