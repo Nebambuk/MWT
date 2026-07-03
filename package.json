@@ -12,6 +12,7 @@
   "devDependencies": {
     "@types/jquery": "^4.0.1",
     "@types/node": "^26.1.0",
+    "chrome-types": "^0.1.432",
     "sass": "^1.101.0",
     "typescript": "~6.0.2",
     "vite": "^8.1.1",
